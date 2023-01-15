@@ -1,0 +1,59 @@
+/* Variables */
+:root {
+  --primary: #600260;
+  --secondary: #24a208;
+  --highlight: #ffb429;
+}
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Global Classes */
+.row, .column {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.hide {
+  display: none;
+}
+
+.f-1 {
+  flex: 1; /* equiv= flex-grow:1, flex-shrink:1*/
+}
+
+.wrapper {
+  max-width: 81.25em; /* equiv to 1300px I think */
+  margin: 0 auto;
+  padding: 10px 2%;
+}
